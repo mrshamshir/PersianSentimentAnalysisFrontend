@@ -33,19 +33,25 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+
   ],
+
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
+    // Doc: https://bootstrap-vue.js.org/docs/
+    // 'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
+    baseUrl: 'http://127.0.0.1:8000/',
+    browserBaseURL: 'http://127.0.0.1:8000/'
   },
   /*
   ** Build configuration
