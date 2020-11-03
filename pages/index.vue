@@ -232,6 +232,7 @@ $primary4: #213e3b;
   flex-direction: column;
   width: 20%;
   text-align: center;
+  direction: ltr;
 }
 
 .table_title {
